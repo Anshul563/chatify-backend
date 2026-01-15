@@ -36,6 +36,7 @@ app.use("/api/chat", chatRoutes);
 app.use("/api/message", messageRoutes);
 app.use("/api/upload", uploadRoutes);
 app.use("/api/status", statusRoutes);
+app.use("/api/system", systemRoutes); // System routes
 
 // Error Handling Middleware
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");

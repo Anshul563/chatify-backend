@@ -36,3 +36,5 @@ coverage/
 # Build directory (if you are using TypeScript or Babel)
 dist/
 build/
+
+src/serviceAccountKey.json
